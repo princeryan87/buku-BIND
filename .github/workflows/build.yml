@@ -1,0 +1,253 @@
+name: Build Buku APK
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build APK
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Flutter 3.22.2
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.22.2'
+          channel: 'stable'
+          cache: true
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.4'
+
+      - name: Disable analytics
+        run: flutter config --no-analytics
+
+      - name: Cek file buku.zip
+        run: |
+          ls -lh buku.zip || (echo "ERROR: buku.zip tidak ditemukan!" && exit 1)
+
+      - name: Ekstrak buku.zip ke native Android assets
+        run: |
+          rm -rf android/app/src/main/assets/buku
+          mkdir -p android/app/src/main/assets/buku
+          unzip -o buku.zip -d android/app/src/main/assets/buku/
+          echo "=== Hasil ekstrak ==="
+          ls android/app/src/main/assets/buku/
+          echo "Total gambar: $(ls android/app/src/main/assets/buku/assets/ 2>/dev/null | wc -l)"
+          echo "Total bab: $(ls android/app/src/main/assets/buku/bab/ 2>/dev/null | wc -l)"
+
+      - name: Ambil info buku
+        id: info
+        run: |
+          CONFIG="android/app/src/main/assets/buku/config.json"
+          KODE=$(python3 -c "import json; d=json.load(open('$CONFIG')); print(d.get('kodeBuku','BUKU'))")
+          NAMA=$(python3 -c "import json; d=json.load(open('$CONFIG')); print(d.get('namaBuku','Buku Digital'))")
+          WARNA=$(python3 -c "import json; d=json.load(open('$CONFIG')); print(d.get('warnaTema','#2D9B5A'))")
+          SLUG=$(echo "$KODE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g')
+          # appid: segmen applicationId Android hanya boleh huruf/angka/underscore, tidak boleh diawali angka
+          APPID=$(echo "$SLUG" | tr -d '-')
+          case "$APPID" in
+            [0-9]*) APPID="b$APPID" ;;
+          esac
+          [ -z "$APPID" ] && APPID="buku"
+          echo "kode=$KODE"   >> $GITHUB_OUTPUT
+          echo "nama=$NAMA"   >> $GITHUB_OUTPUT
+          echo "warna=$WARNA" >> $GITHUB_OUTPUT
+          echo "slug=$SLUG"   >> $GITHUB_OUTPUT
+          echo "appid=$APPID" >> $GITHUB_OUTPUT
+          echo "Buku: $NAMA ($KODE) -> applicationId: com.bukudigital.$APPID"
+
+      - name: Salin soal.json ke assets
+        run: |
+          if [ -f soal.json ]; then
+            cp soal.json android/app/src/main/assets/buku/soal.json
+            echo "=== soal.json ditemukan di root, disalin ==="
+          else
+            echo "WARNING: soal.json tidak ditemukan di root, membuat soal.json kosong"
+            echo '{"soal":[]}' > android/app/src/main/assets/buku/soal.json
+          fi
+          python3 -c "
+          import json
+          with open('android/app/src/main/assets/buku/soal.json') as f:
+              d = json.load(f)
+          soal = d.get('soal', [])
+          s1 = len([s for s in soal if s.get('semester')==1])
+          s2 = len([s for s in soal if s.get('semester')==2])
+          print(f'Total: {len(soal)} soal ({s1} sem1, {s2} sem2)')
+          "
+
+      - name: Install ImageMagick
+        run: sudo apt-get install -y imagemagick fonts-dejavu-core
+
+      - name: Generate ikon launcher
+        run: |
+          KODE="${{ steps.info.outputs.kode }}"
+          PREFIX=$(echo "$KODE" | cut -d'-' -f1)
+          KELAS=$(echo "$KODE" | sed 's/.*-K//')
+
+          case "$PREFIX" in
+            AGAMA) SINGKATAN="PAI";  WARNA="#8B5CF6" ;;
+            BIND)  SINGKATAN="BI";   WARNA="#3A7BD5" ;;
+            IPAS)  SINGKATAN="IPAS"; WARNA="#2D9B5A" ;;
+            MTK)   SINGKATAN="MTK";  WARNA="#E84040" ;;
+            PPKN)  SINGKATAN="PKn";  WARNA="#F5A623" ;;
+            PJOK)  SINGKATAN="PJOK"; WARNA="#06B6D4" ;;
+            SBUD)  SINGKATAN="SBd";  WARNA="#EC4899" ;;
+            SMUS)  SINGKATAN="SM";   WARNA="#EC4899" ;;
+            SRUPA) SINGKATAN="SR";   WARNA="#EC4899" ;;
+            STARI) SINGKATAN="ST";   WARNA="#EC4899" ;;
+            *)     SINGKATAN="${PREFIX:0:4}"; WARNA="#2D9B5A" ;;
+          esac
+
+          FONT=$(convert -list font 2>/dev/null | grep -i "dejavu" | grep -i "bold" | head -1 | awk '{print $2}')
+          [ -z "$FONT" ] && FONT=$(convert -list font 2>/dev/null | grep -i "bold" | head -1 | awk '{print $2}')
+          [ -z "$FONT" ] && FONT="DejaVu-Sans-Bold"
+
+          BASE="android/app/src/main/res"
+          for FOLDER in mipmap-mdpi mipmap-hdpi mipmap-xhdpi mipmap-xxhdpi mipmap-xxxhdpi; do
+            case "$FOLDER" in
+              mipmap-mdpi)    SIZE=48  ;;
+              mipmap-hdpi)    SIZE=72  ;;
+              mipmap-xhdpi)   SIZE=96  ;;
+              mipmap-xxhdpi)  SIZE=144 ;;
+              mipmap-xxxhdpi) SIZE=192 ;;
+            esac
+            OUT="$BASE/$FOLDER/ic_launcher.png"
+            RADIUS=$((SIZE/5)); MARGIN=$((SIZE/10))
+            FS_BESAR=$((SIZE*28/100)); FS_KECIL=$((SIZE*13/100))
+            convert -size ${SIZE}x${SIZE} xc:none \
+              -fill "$WARNA" \
+              -draw "roundrectangle $MARGIN,$MARGIN $((SIZE-MARGIN)),$((SIZE-MARGIN)) $RADIUS,$RADIUS" \
+              -fill white -font "$FONT" \
+              -pointsize $FS_BESAR -gravity North -annotate +0+$((SIZE/4)) "$SINGKATAN" \
+              -pointsize $FS_KECIL -gravity South -annotate +0+$((SIZE/8)) "Kelas $KELAS" \
+              "$OUT" 2>/dev/null || \
+            convert -size ${SIZE}x${SIZE} xc:none \
+              -fill "$WARNA" \
+              -draw "roundrectangle $MARGIN,$MARGIN $((SIZE-MARGIN)),$((SIZE-MARGIN)) $RADIUS,$RADIUS" \
+              -fill white \
+              -pointsize $FS_BESAR -gravity North -annotate +0+$((SIZE/4)) "$SINGKATAN" \
+              -pointsize $FS_KECIL -gravity South -annotate +0+$((SIZE/8)) "Kelas $KELAS" \
+              "$OUT"
+            echo "OK $FOLDER ${SIZE}px"
+          done
+
+      - name: Set nama aplikasi
+        run: |
+          NAMA="${{ steps.info.outputs.nama }}"
+          sed -i "s/android:label=\"[^\"]*\"/android:label=\"$NAMA\"/" \
+            android/app/src/main/AndroidManifest.xml
+
+      - name: Flutter pub get
+        run: flutter pub get
+
+      - name: Buat local.properties
+        run: |
+          FLUTTER_SDK=$(dirname $(dirname $(which flutter)))
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > android/local.properties
+          echo "flutter.sdk=$FLUTTER_SDK"  >> android/local.properties
+          echo "flutter.versionCode=1"     >> android/local.properties
+          echo "flutter.versionName=1.0.0" >> android/local.properties
+
+      - name: Siapkan release keystore
+        id: keystore
+        run: |
+          if [ -n "${{ secrets.KEYSTORE_BASE64 }}" ]; then
+            echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > android/app/release.keystore
+            echo "ada=1" >> $GITHUB_OUTPUT
+            echo "Keystore rilis ditemukan, APK akan ditandatangani dengan release key."
+          else
+            echo "ada=0" >> $GITHUB_OUTPUT
+            echo "WARNING: Secret KEYSTORE_BASE64 belum diset, APK akan pakai debug key (mudah diblokir Play Protect)."
+          fi
+
+      - name: Build APK via Gradle
+        working-directory: android
+        env:
+          KEYSTORE_PATH: ${{ steps.keystore.outputs.ada == '1' && 'release.keystore' || '' }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          set -o pipefail
+          FLUTTER_SDK=$(dirname $(dirname $(which flutter)))
+          gradle assembleRelease \
+            -Pflutter.sdk="$FLUTTER_SDK" \
+            -Pflutter.versionCode=1 \
+            -Pflutter.versionName=1.0.0 \
+            -PcustomApplicationId="com.bukudigital.${{ steps.info.outputs.appid }}" \
+            --no-daemon \
+            --stacktrace > gradle_build.log 2>&1
+          EXIT_CODE=$?
+          echo "=== 150 baris terakhir log Gradle ==="
+          tail -150 gradle_build.log
+          if [ $EXIT_CODE -ne 0 ]; then
+            echo "❌ Gradle build GAGAL (exit code $EXIT_CODE)"
+            exit $EXIT_CODE
+          fi
+          echo "✅ Gradle build sukses"
+
+      - name: Upload log Gradle (untuk debugging)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gradle-build-log
+          path: android/gradle_build.log
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Siapkan output
+        run: |
+          mkdir -p output
+          SLUG="${{ steps.info.outputs.slug }}"
+          find android/app/build -name "*release*.apk" | while read f; do
+            if echo "$f" | grep -q "arm64"; then
+              cp "$f" "output/${SLUG}-arm64.apk" && echo "arm64 OK"
+            elif echo "$f" | grep -q "armeabi"; then
+              cp "$f" "output/${SLUG}-arm32.apk" && echo "arm32 OK"
+            fi
+          done
+          ls -lh output/
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: "${{ steps.info.outputs.slug }}-APK"
+          path: output/*.apk
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Buat Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "${{ steps.info.outputs.slug }}-v${{ github.run_number }}"
+          name: "${{ steps.info.outputs.nama }} v${{ github.run_number }}"
+          body: |
+            ## ${{ steps.info.outputs.nama }}
+
+            | File | Untuk |
+            |---|---|
+            | `${{ steps.info.outputs.slug }}-arm64.apk` | HP Android 2017+ pilih ini |
+            | `${{ steps.info.outputs.slug }}-arm32.apk` | HP Android lama |
+
+            Cara install: Download APK, buka file, izinkan sumber tidak dikenal, install.
+          files: output/*.apk
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
