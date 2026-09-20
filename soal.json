@@ -1,0 +1,2408 @@
+{
+  "kodeBuku": "BIND-K6",
+  "namaBuku": "Bahasa Indonesia Kelas 6 SD",
+  "versi": "1.0",
+  "totalSoal": 200,
+  "soal": [
+    {
+      "id": 1,
+      "semester": 1,
+      "pertanyaan": "Apa yang dimaksud dengan teks eksplanasi?",
+      "pilihan": [
+        "Teks fiksi yang menceritakan petualangan tokoh",
+        "Teks nonfiksi yang menjelaskan proses atau alasan terjadinya suatu fenomena secara ilmiah",
+        "Teks yang berisi pendapat pribadi penulis",
+        "Teks yang menceritakan kehidupan tokoh terkenal"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 2,
+      "semester": 1,
+      "pertanyaan": "Sejak kapan aktivitas manusia mulai menghasilkan emisi gas rumah kaca secara besar-besaran?",
+      "pilihan": [
+        "Abad ke-17",
+        "Abad ke-18 (tahun 1700-an)",
+        "Abad ke-19 (tahun 1800-an)",
+        "Abad ke-20 (tahun 1900-an)"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 3,
+      "semester": 1,
+      "pertanyaan": "Gas apa saja yang menyebabkan efek rumah kaca dan membuat bumi makin panas?",
+      "pilihan": [
+        "Oksigen dan nitrogen",
+        "Karbon dioksida dan metana",
+        "Hidrogen dan helium",
+        "Ozon dan argon"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 4,
+      "semester": 1,
+      "pertanyaan": "Manakah yang BUKAN termasuk dampak perubahan iklim yang disebutkan dalam teks?",
+      "pilihan": [
+        "Kekeringan panjang dan cuaca ekstrem",
+        "Banjir bandang dan gelombang badai besar",
+        "Meningkatnya jumlah hewan di hutan",
+        "Mencairnya es di kutub yang membuat permukaan air laut naik"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 5,
+      "semester": 1,
+      "pertanyaan": "Mengapa kita harus mengurangi penggunaan sampah plastik?",
+      "pilihan": [
+        "Karena plastik mudah terurai di tanah",
+        "Karena plastik sulit terurai dan mencemari tanah serta laut selama ratusan tahun",
+        "Karena plastik terlalu mahal",
+        "Karena plastik mudah terbakar"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 6,
+      "semester": 1,
+      "pertanyaan": "Bagaimana cara tanaman membantu mencegah perubahan iklim?",
+      "pilihan": [
+        "Menghasilkan gas karbon dioksida",
+        "Menyerap karbon dioksida, menghasilkan oksigen segar, serta menyerap air hujan untuk mencegah banjir",
+        "Membuat tanah menjadi kering",
+        "Menghasilkan sampah organik"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 7,
+      "semester": 1,
+      "pertanyaan": "Mengapa kita harus menghemat energi listrik?",
+      "pilihan": [
+        "Karena listrik terlalu mahal",
+        "Karena listrik dihasilkan dari pembakaran fosil yang menghasilkan emisi",
+        "Karena listrik tidak berguna",
+        "Karena lampu LED tidak terang"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 8,
+      "semester": 1,
+      "pertanyaan": "Apa yang sebaiknya dilakukan untuk menghemat air bersih?",
+      "pilihan": [
+        "Membiarkan keran air mengalir terus",
+        "Selalu menutup keran air dengan rapat setelah dipakai",
+        "Menggunakan air sebanyak mungkin",
+        "Tidak perlu mandi setiap hari"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 9,
+      "semester": 1,
+      "pertanyaan": "Berapa jurus utama yang akan dikuasai dalam Bab 1 Bahasa Indonesia Kelas 6?",
+      "pilihan": [
+        "2 jurus",
+        "3 jurus",
+        "4 jurus",
+        "5 jurus"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 10,
+      "semester": 1,
+      "pertanyaan": "Apakah yang dimaksud dengan konsonan rangkap?",
+      "pilihan": [
+        "Gabungan huruf vokal berurutan",
+        "Gabungan dua atau tiga huruf konsonan berurutan dalam satu kata",
+        "Huruf yang diulang dua kali",
+        "Huruf yang tidak bisa dibaca"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 11,
+      "semester": 1,
+      "pertanyaan": "Manakah contoh kata yang mengandung konsonan rangkap?",
+      "pilihan": [
+        "Meja",
+        "Buku",
+        "Struktur",
+        "Pintu"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 12,
+      "semester": 1,
+      "pertanyaan": "Bagian pembuka dalam teks eksplanasi yang berisi pengantar atau gambaran umum topik disebut?",
+      "pilihan": [
+        "Deretan Penjelas",
+        "Penutup",
+        "Pernyataan Umum",
+        "Kesimpulan"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 13,
+      "semester": 1,
+      "pertanyaan": "Bagian isi teks eksplanasi yang menjelaskan fakta, proses kejadian, serta hubungan sebab-akibat disebut?",
+      "pilihan": [
+        "Pernyataan Umum",
+        "Deretan Penjelas",
+        "Penutup",
+        "Pendahuluan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 14,
+      "semester": 1,
+      "pertanyaan": "Bagian akhir teks eksplanasi yang berupa kesimpulan, pandangan, atau ajakan disebut?",
+      "pilihan": [
+        "Pernyataan Umum",
+        "Deretan Penjelas",
+        "Penutup (Kesimpulan)",
+        "Pembuka"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 15,
+      "semester": 1,
+      "pertanyaan": "Joseph Wijaya berasal dari daerah mana?",
+      "pilihan": [
+        "Jakarta",
+        "Surabaya",
+        "Bali",
+        "Yogyakarta"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 16,
+      "semester": 1,
+      "pertanyaan": "Apa nama gerakan yang dilakukan Joseph Wijaya dalam mengelola sampah plastik?",
+      "pilihan": [
+        "Joseph Recycle",
+        "Joseph Recycling",
+        "Joseph Green",
+        "Joseph Plastik"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 17,
+      "semester": 1,
+      "pertanyaan": "Tutup botol plastik yang dikumpulkan Joseph diubah menjadi apa?",
+      "pilihan": [
+        "Tas dan dompet",
+        "Gantungan kunci dan cetakan kue unik",
+        "Mainan anak-anak",
+        "Perabot rumah tangga"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 18,
+      "semester": 1,
+      "pertanyaan": "Untuk apa hasil penjualan produk daur ulang Joseph digunakan?",
+      "pilihan": [
+        "Membeli bahan baku plastik baru",
+        "Membiayai sekolah anak-anak kurang mampu",
+        "Membangun pabrik daur ulang",
+        "Membeli peralatan olahraga"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 19,
+      "semester": 1,
+      "pertanyaan": "Berapa banyak anak yang berhasil melanjutkan sekolah berkat aksi Joseph Wijaya?",
+      "pilihan": [
+        "Lebih dari 10 anak",
+        "Lebih dari 20 anak",
+        "Lebih dari 30 anak",
+        "Lebih dari 50 anak"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 20,
+      "semester": 1,
+      "pertanyaan": "Apa yang dimaksud dengan konjungsi sebab-akibat?",
+      "pilihan": [
+        "Kata penghubung yang menjelaskan urutan proses",
+        "Kata penghubung yang menjelaskan alasan dan dampak",
+        "Kata penghubung yang menunjukkan pertentangan",
+        "Kata penghubung yang menunjukkan persamaan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 21,
+      "semester": 1,
+      "pertanyaan": "Manakah yang merupakan contoh konjungsi sebab-akibat?",
+      "pilihan": [
+        "Pertama, kemudian, selanjutnya",
+        "Karena, sebab, akibatnya, sehingga",
+        "Dan, atau, tetapi",
+        "Namun, meskipun, walaupun"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 22,
+      "semester": 1,
+      "pertanyaan": "Manakah yang merupakan contoh konjungsi urutan?",
+      "pilihan": [
+        "Karena dan sebab",
+        "Pertama, kemudian, selanjutnya, setelah itu, akhirnya",
+        "Sehingga dan oleh karena itu",
+        "Meskipun dan walaupun"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 23,
+      "semester": 1,
+      "pertanyaan": "Kalimat 'Anak-anak menjaga lingkungan' adalah contoh kalimat...",
+      "pilihan": [
+        "Kalimat luas",
+        "Kalimat majemuk",
+        "Kalimat dasar",
+        "Kalimat kompleks"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 24,
+      "semester": 1,
+      "pertanyaan": "Ajang Pangeran & Putri Lingkungan Hidup 2025 mengajak siswa dari jenjang apa?",
+      "pilihan": [
+        "SD/MI saja",
+        "SD/MI hingga SMP/MTs",
+        "SMP/MTs hingga SMA",
+        "SD hingga SMA"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 25,
+      "semester": 1,
+      "pertanyaan": "Apa yang dimaksud dengan Ciri Sekolah Ramah Lingkungan 'Gerakan Jumat Bersih'?",
+      "pilihan": [
+        "Memakai seragam bersih setiap Jumat",
+        "Gotong royong rutin warga sekolah untuk membersihkan kelas dan halaman",
+        "Tidak boleh membawa sampah ke sekolah",
+        "Membersihkan sungai setiap Jumat"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 26,
+      "semester": 1,
+      "pertanyaan": "Memilah tempat sampah organik dan anorganik termasuk ciri...",
+      "pilihan": [
+        "Sekolah Favorit",
+        "Sekolah Negeri",
+        "Sekolah Ramah Lingkungan",
+        "Sekolah Terpadu"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 27,
+      "semester": 1,
+      "pertanyaan": "Apa saja contoh sampah organik?",
+      "pilihan": [
+        "Plastik dan kertas",
+        "Sisa makanan dan daun",
+        "Botol dan kaleng",
+        "Kaca dan logam"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 28,
+      "semester": 1,
+      "pertanyaan": "Perluasan kalimat dilakukan dengan cara...",
+      "pilihan": [
+        "Menghapus subjek kalimat",
+        "Mengganti predikat kalimat",
+        "Menambahkan rincian kata penjelas pada kalimat dasar",
+        "Memendekkan kalimat"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 29,
+      "semester": 1,
+      "pertanyaan": "Apa tujuan utama mempelajari variasi kosakata dalam menulis?",
+      "pilihan": [
+        "Agar tulisan menjadi lebih pendek",
+        "Agar tulisan lebih hidup dan tidak membosankan",
+        "Agar tulisan lebih mudah dihafal",
+        "Agar tulisan menggunakan kata-kata asing"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 30,
+      "semester": 1,
+      "pertanyaan": "Kalimat 'Masyarakat membuang sampah sembarangan, akibatnya saluran air tersumbat' menggunakan konjungsi...",
+      "pilihan": [
+        "Konjungsi urutan",
+        "Konjungsi pertentangan",
+        "Konjungsi sebab-akibat",
+        "Konjungsi penambahan"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 31,
+      "semester": 1,
+      "pertanyaan": "Apa yang dimaksud dengan cerita rakyat (folklor)?",
+      "pilihan": [
+        "Cerita yang dibuat oleh penulis terkenal dan diterbitkan secara resmi",
+        "Cerita yang berasal dari masyarakat, berkembang secara turun-temurun dari mulut ke mulut",
+        "Cerita fiksi ilmiah tentang masa depan",
+        "Cerita yang hanya ada di buku pelajaran sekolah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 32,
+      "semester": 1,
+      "pertanyaan": "Cerita rakyat dengan tokoh binatang yang berperilaku seperti manusia disebut?",
+      "pilihan": [
+        "Legenda",
+        "Mite",
+        "Fabel",
+        "Sage"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 33,
+      "semester": 1,
+      "pertanyaan": "Manakah yang merupakan contoh cerita fabel?",
+      "pilihan": [
+        "Legenda Danau Toba",
+        "Kancil dan Buaya",
+        "Nyi Roro Kidul",
+        "Timun Mas"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 34,
+      "semester": 1,
+      "pertanyaan": "Cerita rakyat yang mengisahkan asal-usul suatu tempat atau peristiwa alam disebut?",
+      "pilihan": [
+        "Fabel",
+        "Mite",
+        "Sage",
+        "Legenda"
+      ],
+      "jawaban": 3
+    },
+    {
+      "id": 35,
+      "semester": 1,
+      "pertanyaan": "Legenda Danau Toba termasuk jenis cerita rakyat apa?",
+      "pilihan": [
+        "Fabel",
+        "Legenda",
+        "Mite",
+        "Cerita Jenaka"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 36,
+      "semester": 1,
+      "pertanyaan": "Cerita yang berhubungan dengan kepercayaan, dewa-dewi, atau hal mistis disebut?",
+      "pilihan": [
+        "Fabel",
+        "Legenda",
+        "Mite (Mitos)",
+        "Dongeng"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 37,
+      "semester": 1,
+      "pertanyaan": "Nyi Roro Kidul termasuk jenis cerita rakyat apa?",
+      "pilihan": [
+        "Fabel",
+        "Legenda",
+        "Mite",
+        "Sage"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 38,
+      "semester": 1,
+      "pertanyaan": "Cerita rakyat yang mengisahkan kepahlawanan dan keberanian tokoh disebut?",
+      "pilihan": [
+        "Fabel",
+        "Cerita Jenaka",
+        "Sage (Epos)",
+        "Dongeng"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 39,
+      "semester": 1,
+      "pertanyaan": "Manakah yang merupakan contoh Sage (Epos)?",
+      "pilihan": [
+        "Kancil dan Buaya",
+        "Pak Pandir",
+        "Hikayat Hang Tuah",
+        "Timun Mas"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 40,
+      "semester": 1,
+      "pertanyaan": "Cerita rakyat penuh humor yang menghibur disebut?",
+      "pilihan": [
+        "Fabel",
+        "Legenda",
+        "Sage",
+        "Cerita Jenaka"
+      ],
+      "jawaban": 3
+    },
+    {
+      "id": 41,
+      "semester": 1,
+      "pertanyaan": "Siapakah tokoh dalam Cerita Jenaka yang terkenal?",
+      "pilihan": [
+        "Hang Tuah",
+        "Si Kancil",
+        "Pak Pandir dan Si Kabayan",
+        "Nyi Roro Kidul"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 42,
+      "semester": 1,
+      "pertanyaan": "Timun Mas dan Bawang Merah Bawang Putih termasuk jenis cerita rakyat apa?",
+      "pilihan": [
+        "Fabel",
+        "Legenda",
+        "Mite",
+        "Dongeng"
+      ],
+      "jawaban": 3
+    },
+    {
+      "id": 43,
+      "semester": 1,
+      "pertanyaan": "Legenda Telaga Sarangan berasal dari daerah mana?",
+      "pilihan": [
+        "Jawa Barat",
+        "Jawa Tengah",
+        "Jawa Timur",
+        "Bali"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 44,
+      "semester": 1,
+      "pertanyaan": "Dalam Legenda Telaga Sarangan, apa yang ditemukan Kyai Pasir dan Nyai Pasir di ladang?",
+      "pilihan": [
+        "Emas dan permata",
+        "Telur naga",
+        "Air ajaib",
+        "Harta karun"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 45,
+      "semester": 1,
+      "pertanyaan": "Apa yang terjadi setelah Kyai Pasir dan Nyai Pasir memakan telur naga?",
+      "pilihan": [
+        "Mereka menjadi kaya raya",
+        "Mereka berubah menjadi naga raksasa dan membentuk Telaga Sarangan",
+        "Mereka mendapat kekuatan super",
+        "Mereka menghilang secara misterius"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 46,
+      "semester": 1,
+      "pertanyaan": "Tradisi Lubuk Larangan berasal dari daerah mana?",
+      "pilihan": [
+        "Jawa Timur",
+        "Kalimantan Barat",
+        "Sumatra Utara",
+        "Sulawesi Selatan"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 47,
+      "semester": 1,
+      "pertanyaan": "Apa yang dilarang dilakukan masyarakat di area Lubuk Larangan?",
+      "pilihan": [
+        "Memancing pada malam hari",
+        "Mengambil ikan atau membuang sampah sampai masa panen adat Tiba",
+        "Berenang di sungai",
+        "Membangun rumah di tepi sungai"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 48,
+      "semester": 1,
+      "pertanyaan": "Apa manfaat tradisi Lubuk Larangan bagi lingkungan?",
+      "pilihan": [
+        "Membuat sungai lebih dalam",
+        "Terbukti ampuh menjaga ekosistem sungai dan mencegah kepunahan ikan",
+        "Membuat air sungai lebih jernih",
+        "Mencegah banjir"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 49,
+      "semester": 1,
+      "pertanyaan": "Apa makna denotatif dari kata 'bintang'?",
+      "pilihan": [
+        "Orang yang sangat terkenal",
+        "Benda langit yang bersinar di malam hari",
+        "Sesuatu yang cemerlang",
+        "Orang berprestasi"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 50,
+      "semester": 1,
+      "pertanyaan": "Dalam kalimat 'Ahmad menjadi bintang di kelasnya', kata bintang memiliki makna...",
+      "pilihan": [
+        "Denotatif — benda langit",
+        "Konotatif — anak terpandai/terkenal",
+        "Denotatif — sesuatu yang bersinar",
+        "Konotatif — sesuatu yang jauh"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 51,
+      "semester": 1,
+      "pertanyaan": "Apa makna konotatif dari ungkapan 'membanting tulang'?",
+      "pilihan": [
+        "Tulangnya patah karena jatuh",
+        "Bekerja sangat keras",
+        "Membuang tulang ke tempat sampah",
+        "Sedang berolahraga berat"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 52,
+      "semester": 1,
+      "pertanyaan": "Makna kata yang sebenarnya, lugas, dan sesuai dengan kamus disebut makna...",
+      "pilihan": [
+        "Konotatif",
+        "Kiasan",
+        "Denotatif",
+        "Simbolis"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 53,
+      "semester": 1,
+      "pertanyaan": "Makna kiasan atau tambahan yang bukan arti sebenarnya disebut makna...",
+      "pilihan": [
+        "Denotatif",
+        "Konotatif",
+        "Leksikal",
+        "Gramatikal"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 54,
+      "semester": 1,
+      "pertanyaan": "Dalam kalimat 'Pak Rahmat adalah tangan kanan Direktur', frasa tangan kanan bermakna...",
+      "pilihan": [
+        "Tangan sebelah kanan yang kuat",
+        "Orang kepercayaan",
+        "Asisten yang pandai",
+        "Teman dekat"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 55,
+      "semester": 1,
+      "pertanyaan": "Dalam kalimat 'Hatinya hancur karena dibohongi sahabatnya', kata hancur bermakna...",
+      "pilihan": [
+        "Denotatif — rusak secara fisik",
+        "Konotatif — sangat sedih",
+        "Denotatif — patah berkeping",
+        "Konotatif — marah besar"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 56,
+      "semester": 1,
+      "pertanyaan": "Apa tujuan utama cerita rakyat selain menghibur?",
+      "pilihan": [
+        "Membuat orang takut",
+        "Mengandung nilai-nilai budaya, kearifan lokal, serta ajaran kebaikan",
+        "Menceritakan sejarah perang",
+        "Menjelaskan ilmu pengetahuan modern"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 57,
+      "semester": 1,
+      "pertanyaan": "Bagaimana cerita rakyat umumnya disebarkan dari generasi ke generasi?",
+      "pilihan": [
+        "Melalui buku yang diterbitkan",
+        "Secara turun-temurun dari mulut ke mulut",
+        "Melalui siaran televisi",
+        "Melalui internet dan media sosial"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 58,
+      "semester": 1,
+      "pertanyaan": "Komponen utama perancangan tokoh cerita yang pertama adalah...",
+      "pilihan": [
+        "Masalah yang dihadapi",
+        "Nama & Umur Tokoh",
+        "Penyelesaian masalah",
+        "Kelebihan & Kekurangan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 59,
+      "semester": 1,
+      "pertanyaan": "Dalam lembar profil tokoh, apa yang dimaksud dengan 'Ciri Fisik & Sifat'?",
+      "pilihan": [
+        "Nama dan umur tokoh",
+        "Penampilan tubuh dan karakter kepribadian tokoh",
+        "Masalah yang dihadapi tokoh",
+        "Cara tokoh menyelesaikan masalah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 60,
+      "semester": 1,
+      "pertanyaan": "Dalam proyek 'Buku Kumpulan Cerita Kelas', apa langkah pertama yang harus dilakukan?",
+      "pilihan": [
+        "Membuat desain sampul",
+        "Melakukan penyuntingan",
+        "Setiap siswa menulis 1 cerita pendek atau dongeng rekaan sendiri",
+        "Mengumpulkan naskah cerpen"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 61,
+      "semester": 1,
+      "pertanyaan": "Apa yang dilakukan pada tahap penyuntingan dalam proyek buku kelas?",
+      "pilihan": [
+        "Mencetak dan menjilid buku",
+        "Membuat desain sampul",
+        "Memeriksa ejaan, tanda baca, serta variasi kata denotatif/konotatif",
+        "Mengumpulkan naskah cerpen"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 62,
+      "semester": 1,
+      "pertanyaan": "Masyarakat Mandailing Natal yang menjaga tradisi Lubuk Larangan berasal dari provinsi?",
+      "pilihan": [
+        "Sumatra Barat",
+        "Sumatra Utara",
+        "Riau",
+        "Aceh"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 63,
+      "semester": 1,
+      "pertanyaan": "Nilai apa yang dapat dipelajari dari kisah Joseph Wijaya?",
+      "pilihan": [
+        "Nilai kepedulian lingkungan dan semangat membantu sesama",
+        "Nilai persaingan dan ambisi",
+        "Nilai kekayaan dan kemewahan",
+        "Nilai popularitas di media sosial"
+      ],
+      "jawaban": 0
+    },
+    {
+      "id": 64,
+      "semester": 1,
+      "pertanyaan": "Apa perbedaan antara legenda dan dongeng?",
+      "pilihan": [
+        "Legenda tokohnya binatang, dongeng tokohnya manusia",
+        "Legenda mengisahkan asal-usul tempat/peristiwa alam, dongeng bersifat khayalan/hiburan semata",
+        "Legenda lebih pendek dari dongeng",
+        "Legenda ditulis, dongeng diceritakan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 65,
+      "semester": 1,
+      "pertanyaan": "Indonesia disebut sebagai negeri yang kaya cerita rakyat karena...",
+      "pilihan": [
+        "Memiliki banyak penulis terkenal",
+        "Dari Sabang sampai Merauke, setiap daerah memiliki kisah unik berupa legenda, fabel, maupun mitos",
+        "Cerita rakyat Indonesia sudah diterjemahkan ke banyak bahasa",
+        "Indonesia memiliki banyak perpustakaan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 66,
+      "semester": 1,
+      "pertanyaan": "Kuis Pemantik di Bab 2 menanyakan tentang nama cerita Si Kancil yang cerdik. Cerita Si Kancil termasuk jenis apa?",
+      "pilihan": [
+        "Mite",
+        "Fabel",
+        "Legenda",
+        "Epos"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 67,
+      "semester": 1,
+      "pertanyaan": "Danau Toba termasuk dalam kisah cerita jenis apa?",
+      "pilihan": [
+        "Fabel",
+        "Cerita Jenaka",
+        "Legenda",
+        "Sage"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 68,
+      "semester": 1,
+      "pertanyaan": "Peribahasa 'membanting tulang' bermakna apa?",
+      "pilihan": [
+        "Bekerja sangat keras",
+        "Bermain dengan tulang",
+        "Mematahkan tulang",
+        "Membuang tulang"
+      ],
+      "jawaban": 0
+    },
+    {
+      "id": 69,
+      "semester": 1,
+      "pertanyaan": "Dalam teks Bab 1, 4 langkah nyata menyelamatkan bumi TIDAK termasuk...",
+      "pilihan": [
+        "Kurangi Sampah Plastik",
+        "Menanam & Merawat Tanaman",
+        "Membeli kendaraan baru",
+        "Menghemat Energi Listrik"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 70,
+      "semester": 1,
+      "pertanyaan": "Bahan bakar fosil yang disebutkan dalam teks termasuk...",
+      "pilihan": [
+        "Angin dan air",
+        "Batu bara, minyak, dan gas",
+        "Kayu dan bambu",
+        "Matahari dan panas bumi"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 71,
+      "semester": 1,
+      "pertanyaan": "Mengapa gas rumah kaca berbahaya bagi bumi?",
+      "pilihan": [
+        "Karena membuat langit menjadi gelap",
+        "Karena menumpuk di atmosfer dan terperangkap membuat suhu bumi semakin panas",
+        "Karena merusak lapisan tanah",
+        "Karena membuat air laut menjadi asin"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 72,
+      "semester": 1,
+      "pertanyaan": "Apa tujuan dari Kuis Pemantik di awal setiap bab?",
+      "pilihan": [
+        "Untuk memberikan nilai akademik",
+        "Untuk mengukur kemampuan siswa mengerjakan ujian",
+        "Untuk mengajak siswa berpikir dan mengecek pengetahuan awal",
+        "Untuk menentukan siapa yang lulus"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 73,
+      "semester": 1,
+      "pertanyaan": "Dalam perancangan tokoh cerita, 'Masalah yang Dihadapi' bertujuan untuk...",
+      "pilihan": [
+        "Membuat cerita menjadi lucu",
+        "Memberikan konflik yang mendorong alur cerita",
+        "Memperkenalkan latar tempat",
+        "Mendeskripsikan penampilan tokoh"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 74,
+      "semester": 1,
+      "pertanyaan": "Contoh kata yang mengandung konsonan rangkap 'kr' adalah...",
+      "pilihan": [
+        "Plastik",
+        "Krisis",
+        "Meja",
+        "Buku"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 75,
+      "semester": 1,
+      "pertanyaan": "Contoh kata yang mengandung konsonan rangkap 'pl' adalah...",
+      "pilihan": [
+        "Krisis",
+        "Struktur",
+        "Plastik",
+        "Abstrak"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 76,
+      "semester": 1,
+      "pertanyaan": "Nilai apa yang bisa dipelajari dari tradisi Lubuk Larangan?",
+      "pilihan": [
+        "Nilai ekonomi — menjual ikan sebanyak mungkin",
+        "Nilai kearifan lokal dalam menjaga kelestarian lingkungan",
+        "Nilai tradisi tanpa manfaat nyata",
+        "Nilai persaingan antar masyarakat"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 77,
+      "semester": 1,
+      "pertanyaan": "Apa langkah ke-4 dalam proyek 'Penulis Hebat Penjaga Bumi'?",
+      "pilihan": [
+        "Deretan Penjelas",
+        "Pernyataan Umum",
+        "Penutup dengan kalimat kesimpulan atau ajakan semangat",
+        "Judul cerita"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 78,
+      "semester": 1,
+      "pertanyaan": "Dalam teks eksplanasi, informasi disajikan secara...",
+      "pilihan": [
+        "Imajinatif dan penuh khayalan",
+        "Ilmiah dan faktual",
+        "Emosional dan subjektif",
+        "Humor dan menghibur"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 79,
+      "semester": 1,
+      "pertanyaan": "Apa yang membedakan kalimat dasar dan kalimat perluasan?",
+      "pilihan": [
+        "Kalimat dasar lebih panjang",
+        "Kalimat perluasan memiliki tambahan rincian kata penjelas",
+        "Kalimat dasar tidak memiliki subjek",
+        "Kalimat perluasan tidak memiliki predikat"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 80,
+      "semester": 1,
+      "pertanyaan": "Dalam Bab 2, apa yang dimaksud bahwa cerita rakyat mengandung 'kearifan lokal'?",
+      "pilihan": [
+        "Cerita yang ditulis oleh orang lokal",
+        "Kebijaksanaan dan pengetahuan tradisional yang berkembang di suatu daerah",
+        "Cerita yang hanya dipahami oleh orang setempat",
+        "Cerita yang menggunakan bahasa daerah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 81,
+      "semester": 1,
+      "pertanyaan": "Penerbitan mini dalam proyek buku kelas bertujuan untuk...",
+      "pilihan": [
+        "Menjual buku dan mencari keuntungan",
+        "Dicetak dan dijilid untuk dipajang di perpustakaan sekolah",
+        "Dikirim ke penerbit nasional",
+        "Diikutkan dalam lomba penulisan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 82,
+      "semester": 1,
+      "pertanyaan": "Kata penghubung 'kemudian' dan 'selanjutnya' termasuk konjungsi...",
+      "pilihan": [
+        "Sebab-akibat",
+        "Pertentangan",
+        "Urutan",
+        "Penambahan"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 83,
+      "semester": 1,
+      "pertanyaan": "Kata penghubung 'sehingga' dan 'oleh karena itu' termasuk konjungsi...",
+      "pilihan": [
+        "Urutan",
+        "Sebab-akibat",
+        "Pertentangan",
+        "Pilihan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 84,
+      "semester": 1,
+      "pertanyaan": "Dalam kalimat 'Tangan kanan Budi terluka saat jatuh', kata tangan kanan bermakna...",
+      "pilihan": [
+        "Konotatif — orang kepercayaan",
+        "Denotatif — tangan sebelah kanan",
+        "Konotatif — asisten setia",
+        "Denotatif — tangan yang kuat"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 85,
+      "semester": 1,
+      "pertanyaan": "Apa tujuan menyusun teks eksplanasi bertema kepedulian lingkungan?",
+      "pilihan": [
+        "Agar siswa dapat menghibur pembaca dengan cerita lucu",
+        "Agar siswa dapat menjelaskan fenomena lingkungan secara ilmiah dan faktual",
+        "Agar siswa dapat menulis puisi indah",
+        "Agar siswa dapat membuat laporan keuangan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 86,
+      "semester": 1,
+      "pertanyaan": "Dalam Kuis Pemantik Bab 1, sikap yang paling tepat saat melihat sampah menumpuk di saluran air adalah...",
+      "pilihan": [
+        "Diam saja karena merasa itu bukan urusan kita",
+        "Memfoto lalu mengunggahnya ke media sosial",
+        "Ikut beraksi membersihkannya bersama warga sekitar",
+        "Melaporkan ke polisi"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 87,
+      "semester": 1,
+      "pertanyaan": "Menurutmu berdasarkan materi Bab 1, dapatkah anak-anak SD membantu mengubah dunia?",
+      "pilihan": [
+        "Tidak bisa, karena mereka masih anak-anak",
+        "Tentu saja bisa, seperti yang dibuktikan Joseph Wijaya",
+        "Hanya bisa jika ada dukungan orang dewasa",
+        "Tidak, itu tugas pemerintah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 88,
+      "semester": 1,
+      "pertanyaan": "Apa yang dilakukan dalam tahap 'Pengumpulan Naskah' proyek buku kelas?",
+      "pilihan": [
+        "Mencetak buku",
+        "Mengumpulkan seluruh naskah cerpen kelas menjadi satu berkas terstruktur",
+        "Membuat sampul buku",
+        "Mempresentasikan cerita"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 89,
+      "semester": 1,
+      "pertanyaan": "Hikayat Hang Tuah dan Ramayana termasuk jenis cerita rakyat...",
+      "pilihan": [
+        "Fabel",
+        "Mite",
+        "Dongeng",
+        "Sage (Epos)"
+      ],
+      "jawaban": 3
+    },
+    {
+      "id": 90,
+      "semester": 1,
+      "pertanyaan": "Dalam proyek mandiri 'Penulis Hebat Penjaga Bumi', langkah pertama adalah...",
+      "pilihan": [
+        "Menulis deretan penjelas",
+        "Menulis penutup",
+        "Menulis 1-2 kalimat pembuka tentang pentingnya kebersihan lingkungan (Pernyataan Umum)",
+        "Mencari konjungsi sebab-akibat"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 91,
+      "semester": 1,
+      "pertanyaan": "Apa kegunaan botol minum sendiri dan tas kain dalam mengurangi sampah plastik?",
+      "pilihan": [
+        "Agar lebih hemat uang",
+        "Sebagai pengganti plastik sekali pakai yang mencemari lingkungan",
+        "Agar lebih mudah dibawa",
+        "Agar terlihat modis"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 92,
+      "semester": 1,
+      "pertanyaan": "Konsonan rangkap dibaca secara...",
+      "pilihan": [
+        "Cepat dan tidak jelas",
+        "Jelas satu per satu",
+        "Sekaligus dalam satu bunyi",
+        "Diam tanpa suara"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 93,
+      "semester": 1,
+      "pertanyaan": "Contoh penggunaan konjungsi urutan yang benar adalah...",
+      "pilihan": [
+        "'Tanaman mati karena tidak disiram'",
+        "'Pertama, kumpulkan sampah plastik. Kemudian, cuci hingga bersih.'",
+        "'Meskipun hujan, kami tetap bersih-bersih'",
+        "'Aku suka menanam karena lingkungan menjadi hijau'"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 94,
+      "semester": 1,
+      "pertanyaan": "Makna denotatif kata 'hancur' dalam kalimat 'Rumah itu hancur diguncang gempa' adalah...",
+      "pilihan": [
+        "Sangat sedih",
+        "Rusak berat secara fisik",
+        "Hilang tanpa jejak",
+        "Tidak berdaya"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 95,
+      "semester": 1,
+      "pertanyaan": "Apa pelajaran moral utama dari kisah Joseph Wijaya?",
+      "pilihan": [
+        "Anak muda tidak bisa berbuat banyak",
+        "Kepedulian dan kreativitas anak muda dapat memberikan dampak sosial yang nyata",
+        "Daur ulang hanya menghasilkan sampah baru",
+        "Hanya orang dewasa yang bisa membantu lingkungan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 96,
+      "semester": 1,
+      "pertanyaan": "Cerita 'Bawang Merah Bawang Putih' termasuk jenis...",
+      "pilihan": [
+        "Legenda",
+        "Fabel",
+        "Dongeng",
+        "Mite"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 97,
+      "semester": 1,
+      "pertanyaan": "Dalam struktur teks eksplanasi, bagian manakah yang berisi hubungan sebab-akibat dari suatu fenomena?",
+      "pilihan": [
+        "Pernyataan Umum",
+        "Penutup",
+        "Deretan Penjelas",
+        "Judul"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 98,
+      "semester": 1,
+      "pertanyaan": "Apa itu emisi yang disebutkan dalam materi Bab 1?",
+      "pilihan": [
+        "Gas bersih yang menyegarkan udara",
+        "Gas buangan hasil pembakaran bahan bakar fosil",
+        "Cairan kimia untuk pupuk tanaman",
+        "Zat padat yang mengendap di tanah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 99,
+      "semester": 1,
+      "pertanyaan": "Sikap apa yang ditunjukkan Joseph Wijaya yang patut diteladani siswa?",
+      "pilihan": [
+        "Menunggu bantuan orang lain",
+        "Peduli lingkungan dan kreatif mengubah masalah menjadi solusi bermanfaat",
+        "Hanya fokus pada keuntungan pribadi",
+        "Menghindari masalah lingkungan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 100,
+      "semester": 1,
+      "pertanyaan": "Selain menghibur, cerita rakyat juga berfungsi sebagai...",
+      "pilihan": [
+        "Media iklan dan promosi",
+        "Wahana pelestarian nilai budaya dan kearifan lokal",
+        "Buku teks pelajaran resmi",
+        "Laporan sejarah yang akurat"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 101,
+      "semester": 2,
+      "pertanyaan": "Apa yang dimaksud dengan wawancara?",
+      "pilihan": [
+        "Kegiatan menulis laporan berita",
+        "Kegiatan tanya jawab antara dua orang atau lebih untuk mendapatkan informasi langsung",
+        "Kegiatan membaca teks di depan kelas",
+        "Kegiatan presentasi kelompok"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 102,
+      "semester": 2,
+      "pertanyaan": "Siapakah pewawancara dalam sebuah wawancara?",
+      "pilihan": [
+        "Orang yang menjawab pertanyaan",
+        "Orang yang mengajukan pertanyaan dalam wawancara",
+        "Orang yang menulis laporan",
+        "Orang yang hadir sebagai penonton"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 103,
+      "semester": 2,
+      "pertanyaan": "Siapakah narasumber dalam sebuah wawancara?",
+      "pilihan": [
+        "Orang yang mengajukan pertanyaan",
+        "Orang yang menjawab pertanyaan karena tahu/mengalami topik tersebut",
+        "Orang yang memimpin wawancara",
+        "Orang yang mendokumentasikan wawancara"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 104,
+      "semester": 2,
+      "pertanyaan": "Apa yang dimaksud dengan laporan wawancara?",
+      "pilihan": [
+        "Rekaman video hasil wawancara",
+        "Teks hasil rangkuman dari kegiatan tanya jawab",
+        "Foto-foto saat wawancara berlangsung",
+        "Daftar pertanyaan yang belum dijawab"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 105,
+      "semester": 2,
+      "pertanyaan": "Kalimat yang mengutip ucapan narasumber secara persis seperti aslinya disebut kalimat...",
+      "pilihan": [
+        "Kalimat tidak langsung",
+        "Kalimat opini",
+        "Kalimat langsung",
+        "Kalimat fakta"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 106,
+      "semester": 2,
+      "pertanyaan": "Ciri khas kalimat langsung adalah menggunakan...",
+      "pilihan": [
+        "Tanda kurung setelah nama pembicara",
+        "Tanda titik dua (:) setelah nama pembicara dan diapit tanda petik ganda",
+        "Tanda seru di akhir kalimat",
+        "Tanda tanya sebelum kutipan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 107,
+      "semester": 2,
+      "pertanyaan": "Manakah yang merupakan contoh kalimat langsung?",
+      "pilihan": [
+        "Pewawancara bertanya kepada Ucok mengenai awal mula ia menyukai robotik",
+        "Pewawancara: 'Sejak kapan Kamu menyukai bidang robotik, Ucok?'",
+        "Ucok sangat menyukai bidang robotik sejak kecil",
+        "Robotik adalah bidang yang diminati Ucok"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 108,
+      "semester": 2,
+      "pertanyaan": "Kalimat yang menyampaikan kembali isi ucapan narasumber dengan bahasa penulis sendiri disebut...",
+      "pilihan": [
+        "Kalimat langsung",
+        "Kalimat perintah",
+        "Kalimat tidak langsung",
+        "Kalimat tanya"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 109,
+      "semester": 2,
+      "pertanyaan": "Manakah yang merupakan contoh kalimat tidak langsung?",
+      "pilihan": [
+        "Ucok: 'Aku suka robotik sejak kelas 1 SD'",
+        "Pewawancara bertanya kepada Ucok mengenai awal mula ia menyukai bidang robotik",
+        "'Aku membuat robot dari barang daur ulang!'",
+        "Ucok berkata: 'Bahan daur ulang sangat berguna'"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 110,
+      "semester": 2,
+      "pertanyaan": "Singkatan ADiKSiMBa dalam jurnalistik merupakan kata tanya yang terdiri dari...",
+      "pilihan": [
+        "Apa, Dimana, Kapan, Siapa, Mengapa, Bagaimana",
+        "Ada, Dimana, Kapan, Siapa, Mana, Banyak",
+        "Apa, Di sini, Kita, Siapa, Mau, Berbuat",
+        "Apa, Dari, Ke, Sampai, Ini, Mulai, Bila"
+      ],
+      "jawaban": 0
+    },
+    {
+      "id": 111,
+      "semester": 2,
+      "pertanyaan": "I Gede Agung Agrata Prana dikenal berprestasi di bidang apa?",
+      "pilihan": [
+        "Robotik dan teknologi",
+        "Karate dan cita-cita Kopassus",
+        "Menulis buku internasional",
+        "Sepakbola profesional"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 112,
+      "semester": 2,
+      "pertanyaan": "Dari kota mana I Gede Agung Agrata Prana berasal?",
+      "pilihan": [
+        "Bandung",
+        "Jakarta",
+        "Surabaya",
+        "Denpasar"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 113,
+      "semester": 2,
+      "pertanyaan": "Ucok Setiawan berprestasi di bidang apa?",
+      "pilihan": [
+        "Karate",
+        "Menulis",
+        "Robotik & Teknologi",
+        "Sepakbola"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 114,
+      "semester": 2,
+      "pertanyaan": "Apa yang membuat Ucok Setiawan memenangkan lomba robotik?",
+      "pilihan": [
+        "Kegemarannya membongkar barang elektronik bekas yang berkembang hingga menciptakan robot penyiram tanaman otomatis",
+        "Belajar dari buku-buku robotik mahal",
+        "Mendapatkan pelatihan dari luar negeri",
+        "Membeli kit robot canggih"
+      ],
+      "jawaban": 0
+    },
+    {
+      "id": 115,
+      "semester": 2,
+      "pertanyaan": "M. DeLiang Al-Farabi berprestasi di bidang apa?",
+      "pilihan": [
+        "Olahraga karate",
+        "Teknologi robotik",
+        "Penulis Cilik Internasional",
+        "Seni rupa"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 116,
+      "semester": 2,
+      "pertanyaan": "Dalam bahasa apa M. DeLiang Al-Farabi menulis buku-bukunya?",
+      "pilihan": [
+        "Bahasa Indonesia",
+        "Bahasa Arab",
+        "Bahasa Inggris",
+        "Bahasa Jepang"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 117,
+      "semester": 2,
+      "pertanyaan": "Lili asal Papua berhasil mendapatkan apa berkat kegigihan belajarnya?",
+      "pilihan": [
+        "Penghargaan seni nasional",
+        "Juara olimpiade matematika",
+        "Beasiswa kuliah keperawatan",
+        "Kontrak kerja di luar negeri"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 118,
+      "semester": 2,
+      "pertanyaan": "Apa langkah pertama menjadi Reporter Cilik menurut Bab 3?",
+      "pilihan": [
+        "Lakukan wawancara santun",
+        "Susun daftar pertanyaan",
+        "Tentukan Narasumber (tokoh inspiratif di sekitar)",
+        "Buat laporan atau infografik"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 119,
+      "semester": 2,
+      "pertanyaan": "Apa yang dilakukan pada langkah ke-3 saat menjadi Reporter Cilik?",
+      "pilihan": [
+        "Menentukan narasumber",
+        "Menyusun daftar pertanyaan",
+        "Lakukan wawancara santun (ucapkan salam, minta izin, dengarkan, catat)",
+        "Membuat laporan"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 120,
+      "semester": 2,
+      "pertanyaan": "Infografik hasil wawancara berisi tentang apa sesuai Bab 3?",
+      "pilihan": [
+        "Biografi lengkap narasumber",
+        "Langkah Menemukan Minat dan Mengembangkan Bakat",
+        "Daftar pertanyaan wawancara",
+        "Jadwal kegiatan sekolah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 121,
+      "semester": 2,
+      "pertanyaan": "Nilai apa yang bisa dipelajari dari kisah I Gede Agung Agrata Prana?",
+      "pilihan": [
+        "Nilai persaingan dan ambisi",
+        "Nilai kedisiplinan, tekad kuat, dan kerja keras mewujudkan cita-cita",
+        "Nilai kekayaan dan kemewahan",
+        "Nilai bakat alami tanpa perlu latihan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 122,
+      "semester": 2,
+      "pertanyaan": "Apa pelajaran dari kisah Lili asal Papua?",
+      "pilihan": [
+        "Hanya orang dari kota besar yang bisa berprestasi",
+        "Kegigihan belajar meski dari daerah keterbatasan bisa membawa keberhasilan",
+        "Beasiswa hanya untuk orang kaya",
+        "Tidak perlu sekolah untuk sukses"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 123,
+      "semester": 2,
+      "pertanyaan": "Tema utama yang dipelajari dalam Bab 3 Bahasa Indonesia Kelas 6 adalah...",
+      "pilihan": [
+        "Cerita rakyat Nusantara",
+        "Teks eksplanasi lingkungan",
+        "Minat, bakat, dan cara menjadi wartawan cilik",
+        "Laporan pengamatan profesi"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 124,
+      "semester": 2,
+      "pertanyaan": "Apa yang harus dilakukan seorang pewawancara menurut materi Bab 3?",
+      "pilihan": [
+        "Langsung bertanya tanpa perlu mempersiapkan diri",
+        "Menyiapkan daftar pertanyaan, mendengarkan, dan mencatat jawaban",
+        "Hanya mendengarkan tanpa mencatat",
+        "Menggunakan bahasa yang sulit"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 125,
+      "semester": 2,
+      "pertanyaan": "Tugas utama narasumber dalam wawancara adalah...",
+      "pilihan": [
+        "Mengajukan pertanyaan kepada pewawancara",
+        "Memberikan informasi, fakta, atau pengalaman yang dibutuhkan",
+        "Menulis laporan wawancara",
+        "Memimpin jalannya diskusi"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 126,
+      "semester": 2,
+      "pertanyaan": "Apa yang dimaksud dengan hobi?",
+      "pilihan": [
+        "Pekerjaan yang menghasilkan uang",
+        "Kegiatan kegemaran yang sering dilakukan di waktu luang",
+        "Kewajiban yang harus diselesaikan",
+        "Tugas dari sekolah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 127,
+      "semester": 2,
+      "pertanyaan": "Rizky Ridho dikenal sebagai...",
+      "pilihan": [
+        "Peternak ayam sukses",
+        "YouTuber edukatif",
+        "Pemain andalan Timnas Indonesia & Kapten Persija",
+        "Penulis buku internasional"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 128,
+      "semester": 2,
+      "pertanyaan": "Hobi awal Rizky Ridho sebelum menjadi pemain sepakbola profesional adalah...",
+      "pilihan": [
+        "Membuat video pendek",
+        "Bercocok tanam",
+        "Bermain bola di lingkungan rumah",
+        "Memelihara ayam"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 129,
+      "semester": 2,
+      "pertanyaan": "Nilai apa yang dapat dipelajari dari kisah Rizky Ridho?",
+      "pilihan": [
+        "Bakat bawaan lebih penting dari latihan",
+        "Kedisiplinan, tekad kuat, dan kerja keras mewujudkan cita-cita",
+        "Harus bersekolah di luar negeri untuk sukses",
+        "Fasilitas mewah adalah kunci keberhasilan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 130,
+      "semester": 2,
+      "pertanyaan": "Pak Bayan dikenal sebagai nelayan yang menggunakan...",
+      "pilihan": [
+        "Pukat harimau untuk hasil maksimal",
+        "Perangkap ikan dari bambu yang ramah lingkungan",
+        "Bahan kimia untuk memudahkan menangkap ikan",
+        "Kapal besar berteknologi canggih"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 131,
+      "semester": 2,
+      "pertanyaan": "Apa nilai penting dari cara Pak Bayan menangkap ikan?",
+      "pilihan": [
+        "Menggunakan cara modern untuk hasil maksimal",
+        "Menggunakan perangkap aman agar ekosistem laut tetap terjaga berkelanjutan",
+        "Menangkap ikan sebanyak mungkin",
+        "Tidak perlu menjaga lingkungan laut"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 132,
+      "semester": 2,
+      "pertanyaan": "Roni sukses menjadi peternak ayam berkat...",
+      "pilihan": [
+        "Modal yang sangat besar",
+        "Pelatihan dari luar negeri",
+        "Ketekunan merawat ternak sejak memelihara ayam di belakang rumah",
+        "Bantuan dari pemerintah"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 133,
+      "semester": 2,
+      "pertanyaan": "Kadek menjadi YouTuber/Kreator Konten Edukatif yang sukses berkat...",
+      "pilihan": [
+        "Kamera dan peralatan mahal",
+        "Kreativitas tidak terhalang fasilitas terbatas; konten bermanfaat disukai penonton",
+        "Jaringan pertemanan yang luas",
+        "Iklan berbayar di media sosial"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 134,
+      "semester": 2,
+      "pertanyaan": "Hobi awal Kadek sebelum menjadi YouTuber adalah...",
+      "pilihan": [
+        "Bercocok tanam",
+        "Memelihara ayam",
+        "Bermain sepakbola",
+        "Membuat video pendek dengan kamera lama"
+      ],
+      "jawaban": 3
+    },
+    {
+      "id": 135,
+      "semester": 2,
+      "pertanyaan": "Teguh menjadi wirausahawan tani dengan tujuan...",
+      "pilihan": [
+        "Menjadi orang paling kaya",
+        "Berbisnis tani untuk menyejahterakan para petani lokal di desanya",
+        "Mengekspor hasil tani ke luar negeri",
+        "Membuka restoran"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 136,
+      "semester": 2,
+      "pertanyaan": "Apa yang dimaksud dengan Laporan Hasil Pengamatan (Observasi)?",
+      "pilihan": [
+        "Teks fiksi yang menceritakan imajinasi penulis",
+        "Teks yang menyajikan data dan informasi faktual berdasarkan pengamatan langsung",
+        "Teks yang berisi pendapat dan perasaan pribadi",
+        "Teks yang menghibur pembaca dengan cerita lucu"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 137,
+      "semester": 2,
+      "pertanyaan": "Berapa ciri utama laporan observasi yang baik?",
+      "pilihan": [
+        "2 ciri",
+        "3 ciri",
+        "4 ciri",
+        "5 ciri"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 138,
+      "semester": 2,
+      "pertanyaan": "Ciri laporan observasi yang 'Objektif' berarti...",
+      "pilihan": [
+        "Menambahkan pendapat pribadi penulis",
+        "Menggambarkan objek apa adanya sesuai kenyataan tanpa menambahkan opini",
+        "Menggunakan kata-kata yang indah",
+        "Membuat cerita lebih menarik"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 139,
+      "semester": 2,
+      "pertanyaan": "Ciri laporan observasi yang 'Faktual' berarti...",
+      "pilihan": [
+        "Berdasarkan imajinasi penulis",
+        "Berdasarkan fakta yang benar-benar terjadi dan dapat dibuktikan kebenarannya",
+        "Menggunakan bahasa sastra",
+        "Disusun dengan urutan yang rapi"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 140,
+      "semester": 2,
+      "pertanyaan": "Ciri laporan observasi yang 'Sistematis' berarti...",
+      "pilihan": [
+        "Menggunakan banyak gambar",
+        "Disusun dengan urutan yang rapi dan terstruktur",
+        "Menggunakan kata-kata ilmiah",
+        "Berisi pendapat para ahli"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 141,
+      "semester": 2,
+      "pertanyaan": "Dalam contoh laporan pengamatan profesi dokter, siapa yang menjadi pengamat?",
+      "pilihan": [
+        "Dokter Puskesmas Waru Sehat",
+        "Kepala Puskesmas",
+        "Talita Anjani (Siswa Kelas VI)",
+        "Guru pendamping"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 142,
+      "semester": 2,
+      "pertanyaan": "Di mana lokasi pengamatan profesi dokter dalam contoh laporan Bab 4?",
+      "pilihan": [
+        "Rumah Sakit Umum",
+        "Klinik Swasta",
+        "Puskesmas Waru Sehat",
+        "Posyandu"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 143,
+      "semester": 2,
+      "pertanyaan": "Apa hasil pengamatan dalam laporan profesi dokter?",
+      "pilihan": [
+        "Dokter bekerja sangat cepat tanpa memperhatikan pasien",
+        "Dokter memeriksa pasien dengan teliti dan sabar menggunakan alat medis",
+        "Dokter hanya memberikan resep obat",
+        "Dokter tidak menggunakan alat apapun"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 144,
+      "semester": 2,
+      "pertanyaan": "Kesimpulan dari laporan pengamatan profesi dokter menyatakan bahwa profesi dokter membutuhkan...",
+      "pilihan": [
+        "Kekayaan dan koneksi luas",
+        "Ketelitian, kesabaran, dan kepedulian tinggi terhadap sesama",
+        "Kecantikan dan penampilan menarik",
+        "Keberanian dan kekuatan fisik"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 145,
+      "semester": 2,
+      "pertanyaan": "Manakah yang merupakan contoh kalimat FAKTA?",
+      "pilihan": [
+        "Menjadi dokter adalah pekerjaan yang paling menyenangkan di dunia",
+        "Soto ayam terasa lebih nikmat jika ditambah perasan jeruk nipis",
+        "Dokter bekerja memeriksa kesehatan pasien di rumah sakit atau puskesmas",
+        "Robotik adalah bidang terbaik untuk dipelajari"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 146,
+      "semester": 2,
+      "pertanyaan": "Manakah yang merupakan contoh kalimat OPINI?",
+      "pilihan": [
+        "Dokter mengenakan jas putih saat memeriksa pasien",
+        "Ucok memenangkan lomba robotik",
+        "Menjadi dokter adalah pekerjaan yang paling menyenangkan di dunia",
+        "Lili mendapat beasiswa keperawatan"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 147,
+      "semester": 2,
+      "pertanyaan": "Apa perbedaan utama kalimat fakta dan kalimat opini?",
+      "pilihan": [
+        "Kalimat fakta lebih panjang dari kalimat opini",
+        "Kalimat fakta menyatakan hal nyata yang dapat dibuktikan, opini menyatakan pendapat pribadi",
+        "Kalimat opini lebih objektif",
+        "Tidak ada perbedaan antara keduanya"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 148,
+      "semester": 2,
+      "pertanyaan": "Kata 'Struktur' mengandung kombinasi konsonan...",
+      "pilihan": [
+        "kr",
+        "pl",
+        "str",
+        "kt"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 149,
+      "semester": 2,
+      "pertanyaan": "Kata 'Instruksi' mengandung kombinasi konsonan...",
+      "pilihan": [
+        "str dalam suku kata 'stru'",
+        "nstr dalam suku kata 'nstr'",
+        "pl",
+        "kt"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 150,
+      "semester": 2,
+      "pertanyaan": "Kata 'Abstrak' mengandung kombinasi konsonan...",
+      "pilihan": [
+        "str",
+        "kr",
+        "bs",
+        "kt"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 151,
+      "semester": 2,
+      "pertanyaan": "Apa fungsi kata ganti (-ku, -mu, -nya) dalam paragraf?",
+      "pilihan": [
+        "Membuat kalimat lebih panjang",
+        "Menjaga keterpaduan dan kesinambungan ide antar-kalimat",
+        "Menghindari penggunaan nama orang",
+        "Membuat kalimat lebih formal"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 152,
+      "semester": 2,
+      "pertanyaan": "Contoh kata keterangan waktu yang tepat adalah...",
+      "pilihan": [
+        "Dengan teliti",
+        "Secara hati-hati",
+        "Di kebun sekolah",
+        "Pada pagi hari"
+      ],
+      "jawaban": 3
+    },
+    {
+      "id": 153,
+      "semester": 2,
+      "pertanyaan": "Contoh kata keterangan tempat yang tepat adalah...",
+      "pilihan": [
+        "Pada pagi hari",
+        "Di kebun sekolah",
+        "Dengan teliti",
+        "Secara perlahan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 154,
+      "semester": 2,
+      "pertanyaan": "Contoh kata keterangan cara yang tepat adalah...",
+      "pilihan": [
+        "Pada sore hari",
+        "Di rumah sakit",
+        "Dengan teliti",
+        "Setiap minggu"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 155,
+      "semester": 2,
+      "pertanyaan": "Langkah pertama dalam 'Misi Proyek Mandiri: Menjadi Peneliti Cilik' adalah...",
+      "pilihan": [
+        "Susun laporan",
+        "Presentasi di depan kelas",
+        "Persiapan: tentukan objek atau profesi yang ingin diamati",
+        "Pelaksanaan observasi"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 156,
+      "semester": 2,
+      "pertanyaan": "Apa yang dicatat saat pelaksanaan observasi lapangan?",
+      "pilihan": [
+        "Nama dan alamat narasumber saja",
+        "Tugas utama, alat yang digunakan, serta sikap positif dalam pekerjaan",
+        "Pendapat pribadi tentang pekerjaan tersebut",
+        "Gaji dan penghasilan narasumber"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 157,
+      "semester": 2,
+      "pertanyaan": "Laporan observasi yang terstruktur memuat komponen apa saja?",
+      "pilihan": [
+        "Hanya judul dan kesimpulan",
+        "Judul, Waktu, Tempat, Pengamat, Hasil Pengamatan, dan Kesimpulan",
+        "Nama narasumber dan foto",
+        "Pertanyaan dan jawaban wawancara"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 158,
+      "semester": 2,
+      "pertanyaan": "Apa tujuan akhir proyek 'Peneliti Cilik' di Bab 4?",
+      "pilihan": [
+        "Menulis novel panjang",
+        "Membuat laporan dan mempresentasikannya secara percaya diri di depan kelas",
+        "Mengunjungi tempat kerja orang tua",
+        "Membuat video YouTube"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 159,
+      "semester": 2,
+      "pertanyaan": "Laporan Hasil Pengamatan (Observasi) harus ditulis secara...",
+      "pilihan": [
+        "Khayalan dan lucu",
+        "Subjektif dan emosional",
+        "Objektif, Faktual, dan Sistematis",
+        "Imajinatif dan kreatif"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 160,
+      "semester": 2,
+      "pertanyaan": "Apa pelajaran utama yang bisa dipetik dari semua kisah tokoh di Bab 4?",
+      "pilihan": [
+        "Bakat bawaan adalah segalanya",
+        "Hanya orang berbakat yang bisa sukses",
+        "Kegemaran kecil yang ditekuni dengan tekad dapat berkembang menjadi profesi cemerlang",
+        "Sukses hanya bisa diraih dengan modal besar"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 161,
+      "semester": 2,
+      "pertanyaan": "Alat medis apa yang digunakan dokter saat memeriksa pasien dalam contoh laporan observasi?",
+      "pilihan": [
+        "Termometer dan timbangan",
+        "Stetoskop dan stik penekan lidah",
+        "Jarum suntik dan perban",
+        "Kacamata dan sarung tangan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 162,
+      "semester": 2,
+      "pertanyaan": "Dalam Kuis Pemantik Bab 4, laporan hasil pengamatan harus ditulis secara apa?",
+      "pilihan": [
+        "Khayalan dan Lucu",
+        "Objektif, Faktual, dan Sistematis",
+        "Subjektif dan Emosional",
+        "Menarik dan Menghibur"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 163,
+      "semester": 2,
+      "pertanyaan": "Teguh merupakan wirausahawan tani yang bercocok tanam di...",
+      "pilihan": [
+        "Jakarta",
+        "Surabaya",
+        "Ubud",
+        "Bali Selatan"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 164,
+      "semester": 2,
+      "pertanyaan": "Pewawancara dalam wawancara juga sering disebut sebagai...",
+      "pilihan": [
+        "Narasumber",
+        "Juru tulis",
+        "Reporter",
+        "Moderator"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 165,
+      "semester": 2,
+      "pertanyaan": "Dalam Bab 3, apa yang dimaksud dengan 'Wartawan Cilik'?",
+      "pilihan": [
+        "Anak yang bekerja di kantor berita",
+        "Siswa yang belajar menjadi jurnalis dengan melakukan wawancara dan membuat laporan",
+        "Anak yang suka membaca koran",
+        "Siswa yang menjadi pemimpin kelas"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 166,
+      "semester": 2,
+      "pertanyaan": "Apa keistimewaan konten yang dibuat Kadek sehingga disukai penonton?",
+      "pilihan": [
+        "Menggunakan kamera dan peralatan mahal",
+        "Kontennya bermanfaat meski dibuat dengan fasilitas terbatas",
+        "Kontennya meniru konten luar negeri",
+        "Menggunakan efek visual yang mewah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 167,
+      "semester": 2,
+      "pertanyaan": "Kombinasi konsonan berurutan seperti str, nstr, bs termasuk...",
+      "pilihan": [
+        "Vokal rangkap",
+        "Kombinasi 3-4 huruf konsonan",
+        "Diftong",
+        "Kluster vokal"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 168,
+      "semester": 2,
+      "pertanyaan": "Apa yang harus dilakukan saat melakukan wawancara yang santun?",
+      "pilihan": [
+        "Langsung bertanya tanpa salam",
+        "Ucapkan salam, minta izin dengan sopan, dengarkan dengan saksama, dan catat jawaban penting",
+        "Berbicara lebih banyak dari narasumber",
+        "Menyela narasumber saat berbicara"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 169,
+      "semester": 2,
+      "pertanyaan": "Siapakah tokoh dari Papua yang mendapat beasiswa dalam Bab 3?",
+      "pilihan": [
+        "I Gede Agung Agrata Prana",
+        "Ucok Setiawan",
+        "M. DeLiang Al-Farabi",
+        "Lili"
+      ],
+      "jawaban": 3
+    },
+    {
+      "id": 170,
+      "semester": 2,
+      "pertanyaan": "Mengapa M. DeLiang Al-Farabi bisa menjadi penulis internasional?",
+      "pilihan": [
+        "Karena mendapat beasiswa ke luar negeri",
+        "Karena ketagihan membaca hingga menghasilkan puluhan buku berkualitas dunia",
+        "Karena orang tuanya adalah penulis terkenal",
+        "Karena sekolah di sekolah unggulan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 171,
+      "semester": 2,
+      "pertanyaan": "Dalam struktur laporan observasi, 'Hasil Pengamatan' berisi...",
+      "pilihan": [
+        "Pendapat pribadi penulis",
+        "Data dan informasi faktual dari pengamatan langsung",
+        "Nama dan latar belakang pengamat",
+        "Kesimpulan akhir kegiatan"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 172,
+      "semester": 2,
+      "pertanyaan": "Apa yang membedakan SSB (Sekolah Sepak Bola) dengan sekolah biasa?",
+      "pilihan": [
+        "SSB mengajarkan semua mata pelajaran",
+        "SSB merupakan tempat latihan khusus sepakbola",
+        "SSB hanya untuk anak berbakat",
+        "SSB tidak membutuhkan biaya"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 173,
+      "semester": 2,
+      "pertanyaan": "Berdasarkan Bab 3, apa yang sebaiknya dilakukan untuk mengembangkan minat menjadi bakat?",
+      "pilihan": [
+        "Hanya mengandalkan bakat alami",
+        "Menekuni minat secara konsisten dan penuh tekad",
+        "Mencoba banyak hal sekaligus tanpa fokus",
+        "Menunggu bakat muncul dengan sendirinya"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 174,
+      "semester": 2,
+      "pertanyaan": "Dalam Kuis Pemantik Bab 3, apa jawaban yang benar untuk pertanyaan 'Siapa sebutan untuk orang yang menjawab pertanyaan dalam wawancara'?",
+      "pilihan": [
+        "Pewawancara",
+        "Moderator",
+        "Narasumber",
+        "Reporter"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 175,
+      "semester": 2,
+      "pertanyaan": "Apa yang dimaksud dengan 'Profesi' dalam Bab 4?",
+      "pilihan": [
+        "Kegiatan di waktu luang",
+        "Hobi yang menyenangkan",
+        "Pekerjaan tetap yang menghasilkan penghasilan",
+        "Kegiatan sukarela tanpa bayaran"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 176,
+      "semester": 2,
+      "pertanyaan": "Roni memulai hobinya dengan...",
+      "pilihan": [
+        "Membuat video",
+        "Bermain sepakbola",
+        "Memelihara ayam di belakang rumah",
+        "Bercocok tanam di sawah"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 177,
+      "semester": 2,
+      "pertanyaan": "Waktu pengamatan profesi dokter dalam contoh laporan adalah...",
+      "pilihan": [
+        "Selasa, 10 Maret 2025",
+        "Senin, 10 Maret 2025",
+        "Rabu, 10 Maret 2025",
+        "Jumat, 10 Maret 2025"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 178,
+      "semester": 2,
+      "pertanyaan": "Apa yang membuat laporan observasi berbeda dari karangan fiksi?",
+      "pilihan": [
+        "Laporan observasi lebih pendek",
+        "Laporan observasi berdasarkan pengamatan nyata dan bersifat faktual, bukan rekaan",
+        "Laporan observasi menggunakan bahasa puisi",
+        "Laporan observasi tidak memerlukan judul"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 179,
+      "semester": 2,
+      "pertanyaan": "Kata keterangan apa yang menjelaskan CARA melakukan sesuatu?",
+      "pilihan": [
+        "Pada pagi hari (waktu)",
+        "Di sekolah (tempat)",
+        "Dengan teliti, secara hati-hati (cara)",
+        "Setiap minggu (frekuensi)"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 180,
+      "semester": 2,
+      "pertanyaan": "Berdasarkan Bab 4, kegemaran kecil yang ditekuni secara konsisten dan penuh tekad dapat berkembang menjadi...",
+      "pilihan": [
+        "Beban yang memberatkan",
+        "Peluang profesi cemerlang di masa depan",
+        "Hobi yang sia-sia",
+        "Pengeluaran yang boros"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 181,
+      "semester": 2,
+      "pertanyaan": "Apa yang menjadi cita-cita I Gede Agung Agrata Prana yang ia kejar lewat karate?",
+      "pilihan": [
+        "Menjadi atlet karate olimpiade",
+        "Membela NKRI sebagai anggota Kopassus",
+        "Mendirikan sekolah karate",
+        "Menjadi pelatih karate nasional"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 182,
+      "semester": 2,
+      "pertanyaan": "Dalam wawancara, pewawancara menggunakan ADiKSiMBa untuk...",
+      "pilihan": [
+        "Menyusun laporan akhir",
+        "Menyusun daftar pertanyaan yang lengkap dan terstruktur",
+        "Menentukan narasumber yang tepat",
+        "Membuat infografik"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 183,
+      "semester": 2,
+      "pertanyaan": "Dalam contoh kalimat tidak langsung 'Pewawancara bertanya kepada Ucok mengenai awal mula ia menyukai bidang robotik', siapa pewawancaranya?",
+      "pilihan": [
+        "Ucok",
+        "Guru",
+        "Pewawancara (tidak disebutkan namanya)",
+        "Orang tua Ucok"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 184,
+      "semester": 2,
+      "pertanyaan": "Mengapa laporan observasi harus bersifat sistematis?",
+      "pilihan": [
+        "Agar lebih mudah diimajinasikan",
+        "Agar mudah dibaca dan dipahami dengan urutan yang rapi dan terstruktur",
+        "Agar terlihat lebih panjang",
+        "Agar menggunakan banyak kata ilmiah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 185,
+      "semester": 2,
+      "pertanyaan": "Hobi awal Pak Bayan yang kemudian menjadi profesinya adalah...",
+      "pilihan": [
+        "Memelihara ikan di kolam",
+        "Berlayar di laut",
+        "Membuat perangkap ikan dari bambu",
+        "Menjual ikan di pasar"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 186,
+      "semester": 2,
+      "pertanyaan": "Apa yang dapat kita pelajari dari kisah Teguh sebagai wirausahawan tani?",
+      "pilihan": [
+        "Pertanian adalah pekerjaan yang tidak menguntungkan",
+        "Kecintaan pada pertanian dapat diwujudkan untuk menyejahterakan komunitas lokal",
+        "Harus pindah ke kota untuk sukses",
+        "Bertani hanya untuk kebutuhan sendiri"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 187,
+      "semester": 2,
+      "pertanyaan": "Dalam kalimat langsung, tanda baca apa yang digunakan setelah nama pembicara?",
+      "pilihan": [
+        "Tanda seru (!)",
+        "Tanda tanya (?)",
+        "Tanda titik dua (:)",
+        "Tanda koma (,)"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 188,
+      "semester": 2,
+      "pertanyaan": "Apa yang menjadi landasan keberhasilan semua tokoh inspiratif di Bab 3 dan Bab 4?",
+      "pilihan": [
+        "Kekayaan keluarga dan koneksi luas",
+        "Ketekunan dan konsistensi dalam mengembangkan minat/hobi mereka",
+        "Keberuntungan semata",
+        "Bakat alami yang luar biasa"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 189,
+      "semester": 2,
+      "pertanyaan": "Siapa saja yang dapat menjadi narasumber dalam kegiatan wawancara Reporter Cilik?",
+      "pilihan": [
+        "Hanya tokoh nasional terkenal",
+        "Guru, orang tua, teman berprestasi, atau pahlawan lokal di sekitar kita",
+        "Hanya artis dan selebriti",
+        "Hanya kepala sekolah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 190,
+      "semester": 2,
+      "pertanyaan": "Laporan observasi yang baik menggambarkan objek...",
+      "pilihan": [
+        "Sesuai keinginan dan harapan penulis",
+        "Apa adanya sesuai kenyataan yang diamati",
+        "Dengan menambahkan cerita fiksi",
+        "Berdasarkan pendapat teman"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 191,
+      "semester": 2,
+      "pertanyaan": "Apa manfaat mempelajari wawancara sebagai wartawan cilik bagi siswa SD?",
+      "pilihan": [
+        "Agar bisa bekerja di kantor berita",
+        "Melatih kemampuan berkomunikasi, mendengarkan, dan menyajikan informasi secara terstruktur",
+        "Agar mendapat nilai bagus di pelajaran IPA",
+        "Agar bisa membuat film dokumenter"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 192,
+      "semester": 2,
+      "pertanyaan": "Kata 'Abstrak' dalam Bab 4 mengandung kombinasi konsonan apa?",
+      "pilihan": [
+        "str",
+        "nstr",
+        "bs",
+        "kt"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 193,
+      "semester": 2,
+      "pertanyaan": "Dalam laporan observasi profesi dokter, apa yang dimaksud dengan 'stik penekan lidah'?",
+      "pilihan": [
+        "Alat untuk mengukur tekanan darah",
+        "Alat bantu dokter untuk melihat kondisi tenggorokan pasien",
+        "Alat suntik untuk mengambil darah",
+        "Alat untuk mengukur suhu tubuh"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 194,
+      "semester": 2,
+      "pertanyaan": "Apa yang bisa kita jadikan objek observasi dalam proyek 'Peneliti Cilik'?",
+      "pilihan": [
+        "Hanya profesi dokter dan guru",
+        "Hanya profesi yang terkenal",
+        "Profesi atau kegiatan apa pun di sekitar kita, termasuk profesi orang tua atau pedagang dekat sekolah",
+        "Hanya profesi yang ada di televisi"
+      ],
+      "jawaban": 2
+    },
+    {
+      "id": 195,
+      "semester": 2,
+      "pertanyaan": "Mengapa kreativitas Kadek patut diteladani?",
+      "pilihan": [
+        "Karena menggunakan peralatan canggih dan mahal",
+        "Karena membuktikan keterbatasan fasilitas bukan penghalang untuk berkarya dan menghasilkan konten bermanfaat",
+        "Karena bekerja sama dengan perusahaan besar",
+        "Karena mendapat bantuan dari pemerintah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 196,
+      "semester": 2,
+      "pertanyaan": "Bagaimana cara yang benar memulai wawancara yang santun?",
+      "pilihan": [
+        "Langsung mengajukan pertanyaan pertama",
+        "Memperkenalkan diri dan mengucapkan salam terlebih dahulu",
+        "Menyerahkan daftar pertanyaan tertulis",
+        "Merekam narasumber diam-diam"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 197,
+      "semester": 2,
+      "pertanyaan": "Dalam Bab 4, laporan hasil pengamatan berbeda dari teks eksplanasi karena...",
+      "pilihan": [
+        "Laporan observasi berisi pendapat, teks eksplanasi berisi fakta",
+        "Laporan observasi berdasarkan pengamatan langsung terhadap objek/kegiatan nyata, teks eksplanasi menjelaskan fenomena",
+        "Keduanya sama saja",
+        "Teks eksplanasi berisi pengamatan, laporan observasi berisi fenomena"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 198,
+      "semester": 2,
+      "pertanyaan": "Apa yang dimaksud dengan 'Student-Led Conference' dalam konteks proyek observasi Bab 4?",
+      "pilihan": [
+        "Konferensi dengan orang tua murid",
+        "Kegiatan di mana siswa memimpin dan mempresentasikan hasil kerja mereka sendiri",
+        "Rapat antara guru dan kepala sekolah",
+        "Kompetisi antar sekolah"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 199,
+      "semester": 2,
+      "pertanyaan": "Berdasarkan seluruh materi Bab 1-4, apa tema besar yang menghubungkan semua pelajaran Bahasa Indonesia Kelas 6?",
+      "pilihan": [
+        "Sejarah Indonesia kuno",
+        "Siswa sebagai generasi aktif yang peduli lingkungan, berminat kuat, dan mampu berkontribusi nyata",
+        "Pelajaran matematika dan sains",
+        "Teknologi dan inovasi modern"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 200,
+      "semester": 2,
+      "pertanyaan": "Apa yang menjadi pesan utama dari Bab 1 hingga Bab 4 bagi siswa kelas 6 SD?",
+      "pilihan": [
+        "Hanya belajar untuk mendapat nilai",
+        "Setiap anak memiliki potensi untuk berkontribusi dan mengubah dunia melalui kepedulian, minat, dan ketekunan",
+        "Dunia sudah baik-baik saja dan tidak perlu diubah",
+        "Hanya orang dewasa yang bisa membuat perubahan"
+      ],
+      "jawaban": 1
+    }
+  ]
+}

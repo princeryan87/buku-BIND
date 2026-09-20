@@ -1,0 +1,63 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader -> localProperties.load(reader) }
+}
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+def hasKeystoreFile = keystorePropertiesFile.exists()
+if (hasKeystoreFile) {
+    keystorePropertiesFile.withReader('UTF-8') { reader -> keystoreProperties.load(reader) }
+}
+def hasKeystoreEnv = System.getenv('KEYSTORE_PATH') != null && System.getenv('KEYSTORE_PATH').trim().length() > 0
+
+android {
+    namespace "com.bukudigital.buku"
+    compileSdk 34
+    ndkVersion "25.1.8937393"
+    compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
+    kotlinOptions { jvmTarget = '1.8' }
+    defaultConfig {
+        applicationId project.hasProperty('customApplicationId') ? project.property('customApplicationId') : "com.bukudigital.buku"
+        minSdk 21; targetSdk 34
+        versionCode localProperties.getProperty('flutter.versionCode','1').toInteger()
+        versionName localProperties.getProperty('flutter.versionName','1.0.0')
+    }
+    signingConfigs {
+        release {
+            if (hasKeystoreFile) {
+                storeFile file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+            } else if (hasKeystoreEnv) {
+                storeFile file(System.getenv('KEYSTORE_PATH'))
+                storePassword System.getenv('KEYSTORE_PASSWORD')
+                keyAlias System.getenv('KEY_ALIAS')
+                keyPassword System.getenv('KEY_PASSWORD')
+            }
+        }
+    }
+    buildTypes {
+        release {
+            def useRelease = hasKeystoreFile || hasKeystoreEnv
+            signingConfig(useRelease ? signingConfigs.release : signingConfigs.debug)
+            minifyEnabled false; shrinkResources false
+        }
+    }
+    splits {
+        abi {
+            enable true
+            reset()
+            include "arm64-v8a", "armeabi-v7a"
+            universalApk false
+        }
+    }
+}
+flutter { source '../..' }
